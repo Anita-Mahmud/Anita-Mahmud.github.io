@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>First_Assignment</title>
+     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"/>
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="home">
+  <!--Navbar-->
+  <nav id="navbar">
+   
+     <h2><a href="index.html" title="Click"><span class="text-primary">Anita</span> Jhara</a></h2>
+    <ul>
+      
+    <li><a href="index.html" title="Click">Home</a> </li>
+                <li><a href="about.html"title="Click">About </a> </li>
+                
+                <li><a href="contact.html" title="Click">Contacts</a> </li>
+        
+    </ul>
+  </nav>
+  <!-- Showcase Area-->
+  <header id="showcase">
+    <div class="showcase-content">
+      <div class="container">
+        <h1>Welcome To <br>
+        <a href="about.html" class="btn"><span class="text-primary">Anita's Page</span></a></h1>
+      </div>
+
+      
+    </div>
+    
+  </header>
+  <!--learn-->
+  <section id="learn">
+    <div class="container">
+      <h2 class="learn-heading">Little bit of introduction <span class="text-primary"></span></h2>
+      <div class="learn-content">
+        <div class="learn-text">
+        <p class="lead">Welcome to my page.I am Anita Mahmud Jhara.
+          from <a id="linkgoogle2" href="https://www.bracu.ac.bd/" title="bracu website"><span class="text-primary">BRAC University</span></a> 
+          and I am in <a id="linkgoogle2" href="https://www.bracu.ac.bd/academics/departments/computer-science-and-engineering" title="cse website"><span class="text-primary">CSE Department</span></a>. BRAC University has recently started <a id="linkgoogle2" href="https://bux.bracu.ac.bd/" title="BUX"><span class="text-primary">BUX</span></a>.For my Piazza account,please visit <a id="linkgoogle5" href="https://piazza.com/class/kc7nicp7ie64bq" title="piazza page"><span class="text-primary">here</span></a>.<br>
+
+
+        </p>
+      </div>
+      </div>
+    </div>
+    
+  </section>
+  <!--footer-->
+  <div class="footer">
+
+    <div>
+        <h2>Page's Location</h2>
+        <p id="path"></p>
+        <script type="text/javascript">
+            document.getElementById("path").innerHTML =
+                "Page path is: " + window.location.pathname;
+        </script>
+
+        <p id="loc"></p>
+        <script type="text/javascript">
+            document.getElementById("loc").innerHTML =
+                "The full URL of this page is:" + window.location.href;
+        </script>
+    </div>
+    
+    <div>
+        <h2>Last modified</h2>
+
+        <p id="demo"></p>
+        <script type="text/javascript">
+            var x = document.lastModified;
+            document.getElementById("demo").innerHTML = x;
+        </script>
+
+    </div>
+    <img src="logo.png" alt=""style="width:48px;height:48px;"/>
+    <center>&copy;Anita Mahmud Jhara</center>
+</div>
+
+  
+
+
+
+
+</body>
+</html>
